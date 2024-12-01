@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Rick & Morty Character Browser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **Front-End Developer Take-home Assignment** for **Danubio IT Services DOO**. The project is a simple web application that allows users to browse and search for characters from the Rick & Morty universe using the [Rick and Morty API](https://rickandmortyapi.com/documentation).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Overview
+The primary goal of this application is to showcase:
+- The ability to consume a REST API.
+- Implement a responsive design to display characters in a grid view.
+- Provide a seamless user experience with search functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+- **Character Grid View**: Displays character cards with the following details:
+  - Image
+  - Name
+  - Status (e.g., Alive, Dead, Unknown)
+  - Last Known Location
+- **Search Functionality**: Users can search for characters by name.
+- **Pagination**: Limits the display to a maximum of 10 characters at a time.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **React** (JavaScript library for building user interfaces)
+- **Axios** (HTTP client for API consumption)
+- **CSS** (for styling)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
+### Prerequisites
+To run this project locally, ensure you have:
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/rick-morty-browser.git
+2. Install dependencies:
+    npm install
+3. Start the development server:
+    npm start
+4. Open your browser and navigate to http://localhost:3000 
 
 ### Deployment
+This project is deployed using Vercel. You can find the live version at: https://front-end-developer-assignment-danubio.vercel.app/ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Personalization Note
+In this project, I kept the default React file structure and approach, so you can easily personalize your own application without confusion. Feel free to modify components or add features according to your preferences.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Future Enhancements
+- Add filtering by species, gender, and other attributes.
+- Implement advanced pagination with a page navigator.
+- Include a detailed character view with more information.
+- Optimize the grid view and other components for various screen sizes (mobile, tablet, desktop)
+- Add separate pages for exploring episodes and locations from the API.
+- Provide a dropdown menu to switch between languages (e.g., English, Spanish, French).
+- Add a login/signup feature so users 

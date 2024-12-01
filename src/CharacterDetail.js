@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const CharacterDetail = () => {
-  const { id } = useParams();  // Get character ID from the URL
+  const { id } = useParams();  
   const [character, setCharacter] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -31,13 +31,13 @@ const CharacterDetail = () => {
   const getStatusColor = (status) => {
     switch (status) {
       case 'Alive':
-        return '#4CAF50';  // Green for Alive
+        return '#4CAF50';  
       case 'Dead':
-        return '#F44336';  // Red for Dead
+        return '#F44336';  
       case 'unknown':
-        return '#9E9E9E';  // Gray for Unknown
+        return '#9E9E9E';  
       default:
-        return '#9E9E9E';  // Default case
+        return '#9E9E9E';  
     }
   };
 
@@ -52,7 +52,7 @@ const CharacterDetail = () => {
   return (
     <div className="character-detail">
       <div className="detail-card">
-        {/* Corner with dynamic color */}
+        { }
         <div className="corner" style={{ backgroundColor: getStatusColor(character.status) }}></div>
 
         <h2>{character.name}</h2>
