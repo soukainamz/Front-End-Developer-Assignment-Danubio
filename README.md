@@ -9,9 +9,8 @@ This is a **Front-End Developer Take-home Assignment** for **Danubio IT Services
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Notes](#Notes)
+
 
 ---
 
@@ -61,6 +60,8 @@ To run this project locally, ensure you have:
 ### Deployment
 This project is deployed using Vercel. You can find the live version at: https://front-end-developer-assignment-danubio.vercel.app/ 
 
+---
+### Notes
 ### Personalization Note
 In this project, I kept the default React file structure and approach, so you can easily personalize your own application without confusion. Feel free to modify components or add features according to your preferences.
 
